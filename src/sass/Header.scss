@@ -1,0 +1,128 @@
+.Header-section {
+    .Navbar {
+        width: 100%;
+        height: 60px;
+        background-color: rgba(13, 10, 10, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.526) 0px 3px 8px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100; 
+        h1 {
+            font-family: 'Anek Latin', serif;
+            color: white;
+            margin-left: 10px;
+        }
+        .container_button_hamburger {
+            width: auto;
+            height: auto;
+            //background-color: red;
+            display: flex;
+            justify-content: center;
+             //padding-left: 10px;
+            align-items: center;
+             margin-right: 10px;
+
+            #button_hamburger {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 100;
+                width: 35px;
+                height: 50px;
+                position: relative;
+                // margin: 50px auto;
+                right: 15px;
+                top: 10px;
+                transform: rotate(0deg);
+                transition: 0.5s ease-in-out;
+                // background-color: rgb(38, 0, 255);
+
+                span {
+                    display: block;
+                    position: absolute;
+                    height: 4px;
+                    width: 27px;
+                    background: #ffffff;
+                    border-radius: 9px;
+                    opacity: 1;
+                    left: 0;
+                    transition: 0.25s ease-in-out;
+                }
+
+                span:nth-child(1) {
+                    top: 0px;
+                }
+                span:nth-child(2),
+                span:nth-child(3) {
+                    top: 10px;
+                }
+                span:nth-child(4) {
+                    top: 20px;
+                }
+
+                &.open span:nth-child(1) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                }
+
+                &.open span:nth-child(2) {
+                    transform: rotate(45deg);
+                }
+
+                &.open span:nth-child(3) {
+                    transform: rotate(-45deg);
+                }
+
+                &.open span:nth-child(4) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                }
+            }
+        }
+        .Overlay {
+            color: white;
+                display: none;
+                &.open {
+                    display: flex;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(0, 0, 0, 0.61);
+                    backdrop-filter: blur(7px);
+                    z-index: 50; /* Assurer que le menu est au-dessus de tout le reste */
+    
+                   li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        gap: 5px;
+                        padding: 5px;
+
+                        // margin: 20px;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgb(100, 5, 5);
+                        a{
+                            display: flex;
+                            text-decoration:  none;
+                            color: #ffffff;
+                        gap: 5px;
+
+                        }
+                    }
+                }
+              
+         }
+    }
+}
