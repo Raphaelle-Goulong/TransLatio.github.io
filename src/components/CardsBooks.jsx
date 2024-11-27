@@ -6,7 +6,9 @@ function CardsBooks() {
         <>
             <section className="CardsBooks-section">
                 <div className="CardsBooks">
-                    <img src={Img} alt="" />
+                    <a href="/Book">
+                        <img src={Img} alt="" />
+                    </a>
                 </div>
                 <div className="settings">
                     <p>0%</p>
