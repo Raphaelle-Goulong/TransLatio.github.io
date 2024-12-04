@@ -10,7 +10,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 100; 
+        z-index: 100;
+
         h1 {
             font-family: 'Anek Latin', serif;
             color: white;
@@ -23,9 +24,9 @@
             //background-color: red;
             display: flex;
             justify-content: center;
-             //padding-left: 10px;
+            //padding-left: 10px;
             align-items: center;
-             margin-right: 10px;
+            //  margin-right: 10px;
 
             #button_hamburger {
                 display: flex;
@@ -35,12 +36,10 @@
                 width: 35px;
                 height: 50px;
                 position: relative;
-                // margin: 50px auto;
                 right: 15px;
                 top: 10px;
                 transform: rotate(0deg);
                 transition: 0.5s ease-in-out;
-                // background-color: rgb(38, 0, 255);
 
                 span {
                     display: block;
@@ -88,42 +87,38 @@
         }
         .Overlay {
             color: white;
-                display: none;
-                &.open {
+            display: none;
+            &.open {
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.61);
+                backdrop-filter: blur(7px);
+                z-index: 50; /* Assurer que le menu est au-dessus de tout le reste */
+
+                li {
                     display: flex;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
                     justify-content: center;
                     align-items: center;
-                    background-color: rgba(0, 0, 0, 0.61);
-                    backdrop-filter: blur(7px);
-                    z-index: 50; /* Assurer que le menu est au-dessus de tout le reste */
-    
-                   li{
+                    text-align: center;
+                    gap: 5px;
+                    padding: 5px;
+                    width: 100%;
+                    height: 100%;
+
+                    a {
                         display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        text-align: center;
+                        text-decoration: none;
+                        color: #ffffff;
                         gap: 5px;
-                        padding: 5px;
-
-                        // margin: 20px;
-                        width: 100%;
-                        height: 100%;
-                        // background-color: rgb(100, 5, 5);
-                        a{
-                            display: flex;
-                            text-decoration:  none;
-                            color: #ffffff;
-                        gap: 5px;
-
-                        }
                     }
                 }
-              
-         }
+            }
+        }
     }
 }

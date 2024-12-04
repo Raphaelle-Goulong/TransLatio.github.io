@@ -22,20 +22,7 @@
         width: 100%;
         min-height: auto;
         padding-top: 50px;
-        h2 {
-            margin-left: 10px;
-            color: white;
-            font-family: 'Roboto', serif;
-            padding: 30px;
-            font-size: 1.3rem;
-        }
-        .Books-recents {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            gap: 45px;
-        }
+       
         .Books-container {
             display: flex;
             flex-wrap: wrap;
@@ -45,6 +32,7 @@
                 margin: 50px 0;
                 font-size: 1.3rem;
                 font-family: 'Roboto', serif;
+                color: white;
             }
             .Books-all {
                 display: flex;

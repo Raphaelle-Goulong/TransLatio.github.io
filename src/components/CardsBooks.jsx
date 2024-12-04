@@ -1,21 +1,25 @@
+import React from 'react'
 import '../sass/CardsBooks.scss'
-import Img from '../assets/images/michael-baccin-XopauR-Nagk-unsplash.jpg'
+import Data from '../Data.json' // Assurez-vous que le chemin du fichier JSON est correct.
+import { Link } from 'react-router-dom'
 
 function CardsBooks() {
     return (
-        <>
-            <section className="CardsBooks-section">
-                <div className="CardsBooks">
-                    <a href="/Book">
-                        <img src={Img} alt="" />
-                    </a>
-                </div>
-                <div className="settings">
-                    <p>0%</p>
-                    <i class="fa-solid fa-ellipsis"></i>
-                </div>
-            </section>
-        </>
+        <section className="CardsBooks-section">
+            <div className="CardsBooks-container">
+                {Data.map((book) => (
+                    <Link to={`/book/${book.id}`} key={book.id} className="Link-book">
+                        <article className="Card-book">
+                            <img src={book.cover} alt={book.title} />
+                        </article>
+                        <div className="settings">
+                            <p>0%</p>
+                            <i className="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </Link>
+                ))}
+            </div>
+        </section>
     )
 }
 

@@ -1,5 +1,6 @@
 import '../sass/Header.scss'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -13,41 +14,45 @@ function Header() {
     const closeMenu = () => {
         setMenuOpen(false)
     }
+
     return (
-        <>
-            <div className="Header-section">
-                <nav className="Navbar">
+        <header className="Header-section">
+            <nav className="Navbar">
+                <Link to="/">
                     <h1>Latio</h1>
-                    <div className="container_button_hamburger">
-                        <div
-                            id="button_hamburger"
-                            className={menuOpen ? 'open' : ''}
-                            onClick={toggleMenu}>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div className={`Overlay ${menuOpen ? 'open' : ''}`}>
-                            <ul>
-                                <li className="Menu">
-                                    <a href="#Menu">
-                                        <i className="fa-solid fa-bars"></i>
-                                        <h3 onClick={closeMenu}>Menu</h3>
-                                    </a>
-                                </li>
-                                <li className="Setting">
-                                    <a href="#">
-                                        <i className="fa-solid fa-gear"></i>
-                                        <h3>Parametres</h3>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                </Link>
+                <div className="container_button_hamburger">
+                    {/* Bouton hamburger pour ouvrir/fermer le menu */}
+                    <div
+                        id="button_hamburger"
+                        className={menuOpen ? 'open' : ''}
+                        onClick={toggleMenu}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                </nav>
-            </div>
-        </>
+
+                    {/* Overlay du menu */}
+                    <div className={`Overlay ${menuOpen ? 'open' : ''}`}>
+                        <ul>
+                            <li className="Menu">
+                                <Link to="/" onClick={closeMenu}>
+                                    <i className="fa-solid fa-bars"></i>
+                                    <h3>Menu</h3>
+                                </Link>
+                            </li>
+                            <li className="Setting">
+                                <Link to="/settings" onClick={closeMenu}>
+                                    <i className="fa-solid fa-gear"></i>
+                                    <h3>Paramètres</h3>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     )
 }
 
