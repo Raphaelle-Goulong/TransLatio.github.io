@@ -21,12 +21,9 @@
         .container_button_hamburger {
             width: auto;
             height: auto;
-            //background-color: red;
             display: flex;
             justify-content: center;
-            //padding-left: 10px;
             align-items: center;
-            //  margin-right: 10px;
 
             #button_hamburger {
                 display: flex;
@@ -51,6 +48,7 @@
                     opacity: 1;
                     left: 0;
                     transition: 0.25s ease-in-out;
+                    
                 }
 
                 span:nth-child(1) {
@@ -99,7 +97,7 @@
                 align-items: center;
                 background-color: rgba(0, 0, 0, 0.61);
                 backdrop-filter: blur(7px);
-                z-index: 50; /* Assurer que le menu est au-dessus de tout le reste */
+                z-index: 50; 
 
                 li {
                     display: flex;
