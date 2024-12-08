@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "title": "23.5 Degree",
+    "chapters": [
+        {
+            "title": "Chapter 1: Introduction",
+            "content": "Lorem ipsum dolor sit amet."
+        },
+        {
+            "title": "Chapter 2: Details",
+            "content": "Vestibulum ante ipsum primis in faucibus."
+        }
+    ]
+}

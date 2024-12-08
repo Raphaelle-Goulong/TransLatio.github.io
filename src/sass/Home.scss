@@ -28,11 +28,83 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+             
+            .title-section{
+                display: flex;
+                align-items: center;
+            justify-content: center;
+             width: 100%;
+            
             h2 {
                 margin: 50px 0;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 font-family: 'Roboto', serif;
                 color: white;
+                
+            }}
+            .search-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                // width: 100%;
+                flex-direction: column;
+                // padding: 20px;
+                margin-bottom: 50px;
+                position: relative;
+                
+                input{
+                    background-color: #f7f7f75b;
+                    width: 300px;
+                    height: 35px;
+                    border-radius: 10px;
+                    padding: 5px;
+                    border: none;
+                    margin-bottom: 20px;
+                    outline: none;
+                    border-bottom: 2px solid #43e97b;
+                    color: #ffffff;
+                    &::placeholder {
+                    color: #ffffff;
+                    font-weight: 900;
+                    opacity: 1;
+                }
+                    @media (min-width: 768px) {
+                        width: 600px;
+                    }
+                    &:focus{
+                        font-family: 'Unbounded', sans-serif;
+                        background: rgba(8, 8, 8, 0.452);
+                        border-bottom: 2px solid #38f9d7;
+                        color: #f7f7f7;
+                    }
+                }
+                .validation{
+                    width: 40px;
+                    height: 35px;
+                    margin-bottom: 20px;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    color: #ffffff;
+                    position: absolute;
+                    top: 5px;
+                    right: 70px;
+                    font-size: 20px;
+                    &:focus{
+                        color: #43e97b;
+                    }
+                }
+                .cross{
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 20px;
+                    background-color: transparent;
+                    color: white;
+                }
             }
             .Books-all {
                 display: flex;

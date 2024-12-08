@@ -1,13 +1,11 @@
-import React from 'react'
 import '../sass/CardsBooks.scss'
-import Data from '../Data.json' // Assurez-vous que le chemin du fichier JSON est correct.
 import { Link } from 'react-router-dom'
 
-function CardsBooks() {
+function CardsBooks({ books }) {  // Accepter "books" comme prop
     return (
         <section className="CardsBooks-section">
             <div className="CardsBooks-container">
-                {Data.map((book) => (
+                {books.map((book) => (  // Utiliser les livres passés en prop
                     <Link to={`/book/${book.id}`} key={book.id} className="Link-book">
                         <article className="Card-book">
                             <img src={book.cover} alt={book.title} />
@@ -24,3 +22,4 @@ function CardsBooks() {
 }
 
 export default CardsBooks
+

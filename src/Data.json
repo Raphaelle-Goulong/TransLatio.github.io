@@ -3,7 +3,7 @@
         "id": "1",
         "title": "23.5 Degree",
         "cover": "/Images/23.5 Degree.webp",
-        "url": "/Books/23.5 Degree.pdf",
+        "url": "/Bookjson/23.5.json",
         "auteur": "Nom de l'Auteur",
         "date": "01/12/2024"
     },
