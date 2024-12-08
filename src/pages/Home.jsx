@@ -8,6 +8,11 @@ function Home() {
     const [searchTerm, setSearchTerm] = useState('')
     const [isSearching, setIsSearching] = useState(false) // Etat pour savoir si on est en mode recherche
 
+    // Trier les livres par date (les plus récents en premier) et sélectionner les 2 premiers
+    const recentBooks = [...Data]
+        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Tri par date décroissante
+        .slice(0, 3) // Prendre les 3 premiers
+
     // Filtrer les livres en fonction du nom
     const filteredBooks = Data.filter(
         (book) => book.title.toLowerCase().includes(searchTerm.toLowerCase()) // Filtrer par titre
@@ -29,11 +34,10 @@ function Home() {
             <div className="Home-section">
                 <section className="Books-section">
                     <div className="Books-container">
-                        <div className="title-section">
-                            <h2> Bibliothèque</h2>
-                        </div>
+                        
+
+                        {/* Section de recherche */}
                         <div className="search-content">
-                            {/* Champ de recherche */}
                             <div className="search-bar">
                                 <form
                                     onSubmit={(e) => {
@@ -50,16 +54,26 @@ function Home() {
                                         onClick={handleSearchClick}
                                         className="validation"
                                         type="submit">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <i className="fa-solid fa-magnifying-glass"></i>
                                     </button>
                                     <button onClick={handleResetClick} className="cross">
-                                        <i class="fa-solid fa-xmark"></i>
+                                        <i className="fa-solid fa-xmark"></i>
                                     </button>
                                 </form>
                             </div>
                         </div>
+                        {/* Section "Ajout récent" */}
+                       
+                        <div className="add-recent"> 
+                            <h2>Ajouts récents</h2>
+                            <CardsBooks books={recentBooks} /> {/* Affiche les 2 livres récents */}
+                        </div>
+
+                        {/* Section "Tous les livres" */}
                         <div className="Books-all">
-                            {/* Afficher tous les livres ou uniquement ceux filtrés */}
+                        <div className="title-section">
+                            <h2>Bibliothèque</h2>
+                        </div>
                             {isSearching ? (
                                 filteredBooks.length > 0 ? (
                                     <CardsBooks books={filteredBooks} />
