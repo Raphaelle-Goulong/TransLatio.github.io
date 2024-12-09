@@ -6,6 +6,7 @@ import Book from './Book';
 import Error from './Error';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Transform from'../components/Transform';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/Book/:id" element={<Book />} />
                 <Route path="*" element={<Error />} />
+                <Route path="/Transform" element={<Transform />} />
             </Routes>
             <Footer />
         </BrowserRouter>
