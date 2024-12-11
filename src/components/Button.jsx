@@ -1,13 +1,14 @@
 import '../sass/Button.scss'
 
 
-function Button() {  
+function Button({ children, onClick, disabled, className }) {  
     return (
-        <section className="Button-section">
-            <div className="Button-container">
-              
-            </div>
-        </section>
+       
+            <button className={`Button-container ${className || ''}`} onClick={onClick}
+            disabled={disabled}>
+             {children}
+            </button>
+      
     )
 }
 

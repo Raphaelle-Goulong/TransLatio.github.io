@@ -26,23 +26,23 @@
     color: #ffffff;
     min-height: 100vh;
     display: flex;
-    // justify-content: center;
     align-items: center;
     flex-direction: column;
-    // margin-bottom: 20px;
 
     @media (min-width: 768px) {
         padding: 0px 20px;
-    justify-content: center;
-
+        justify-content: center;
     }
 
     .Book-title {
         text-align: center;
         font-size: 2.5rem;
         font-weight: bold;
-        margin-bottom: 50px;
+        // margin:  0px 0;
         color: #ffffff;
+        @media (min-width: 768px) {
+            margin: 70px 0;
+        }
     }
 
     .chapter-title {
@@ -50,7 +50,6 @@
         font-weight: bold;
         margin-top: 30px;
         margin-bottom: 50px;
-        // color: #007BFF;
         background: linear-gradient(135deg, #43e97b, #38f9d7);
         background-clip: text;
         -webkit-background-clip: text;
@@ -58,11 +57,45 @@
         border-bottom: 2px solid #ddd;
         padding-bottom: 5px;
     }
-
+    .help-speed{
+     display: flex;
+     justify-content: space-around;
+    gap: 10px;
+    .translate-button {
+        margin-bottom: 20px;
+    }
+}
     .chapter-content {
         margin-bottom: 50px;
         color: #f8f5f5;
-        line-height: 2.0;
+        line-height: 2;
         white-space: pre-wrap; /* Pour préserver les retours à la ligne */
+    }
+    .chapter-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 160px;
+        height: 40px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 1px, rgba(255, 255, 255, 0.07) 0px 2px 2px,
+            rgba(255, 255, 255, 0.07) 0px 4px 4px, rgba(209, 208, 208, 0.07) 0px 8px 8px,
+            rgba(204, 203, 203, 0.07) 0px 16px 16px;
+        background: linear-gradient(135deg, #3cd46f, #1b7463);
+        cursor: pointer;
+        &:disabled{
+        background: linear-gradient(135deg, #7a7a7a, #272727);
+        cursor: not-allowed;
+    }
     }
 }
