@@ -382,5 +382,13 @@
         "url": "/Books/US_complete.docx",
         "auteur": "Chao Planoy",
         "date": "2024-12-08"
+    },
+    {
+        "id": "49",
+        "title": "Lyric",
+        "cover": "/Images/Lyric.webp",
+        "url": "/Books/Lyric.docx",
+        "auteur": "Chao Planoy",
+        "date": "2024-12-11"
     }
 ]

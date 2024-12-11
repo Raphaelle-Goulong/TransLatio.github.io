@@ -4,29 +4,33 @@ import Data from '../Data.json'
 import { useState } from 'react'
 
 function Home() {
-    // Définir un state pour stocker la recherche
     const [searchTerm, setSearchTerm] = useState('')
-    const [isSearching, setIsSearching] = useState(false) // Etat pour savoir si on est en mode recherche
+    const [isSearching, setIsSearching] = useState(false)
 
-    // Trier les livres par date (les plus récents en premier) et sélectionner les 2 premiers
+    // Trier les livres par date pour la section des ajouts récents
     const recentBooks = [...Data]
-        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Tri par date décroissante
-        .slice(0, 3) // Prendre les 3 premiers
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 3)
 
-    // Filtrer les livres en fonction du nom
-    const filteredBooks = Data.filter(
-        (book) => book.title.toLowerCase().includes(searchTerm.toLowerCase()) // Filtrer par titre
+    // Filtrer les livres pour la recherche
+    const filteredBooks = Data.filter((book) =>
+        book.title.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+
+    // Trier les livres par ordre alphabétique pour la bibliothèque
+    const sortedBooks = [...Data].sort((a, b) =>
+        a.title.localeCompare(b.title)
     )
 
     // Fonction pour activer la recherche
     const handleSearchClick = () => {
-        setIsSearching(true) // Activer la recherche
+        setIsSearching(true)
     }
 
     // Fonction pour réinitialiser la recherche
     const handleResetClick = () => {
-        setIsSearching(false) // Désactiver la recherche
-        setSearchTerm('') // Réinitialiser la recherche
+        setIsSearching(false)
+        setSearchTerm('')
     }
 
     return (
@@ -34,16 +38,15 @@ function Home() {
             <div className="Home-section">
                 <section className="Books-section">
                     <div className="Books-container">
-                        
-
                         {/* Section de recherche */}
                         <div className="search-content">
                             <div className="search-bar">
                                 <form
                                     onSubmit={(e) => {
-                                        e.preventDefault() // Empêche le rechargement de la page
-                                        handleSearchClick() // Déclenche la recherche
-                                    }}>
+                                        e.preventDefault()
+                                        handleSearchClick()
+                                    }}
+                                >
                                     <input
                                         type="text"
                                         placeholder="Rechercher un livre..."
@@ -53,7 +56,8 @@ function Home() {
                                     <button
                                         onClick={handleSearchClick}
                                         className="validation"
-                                        type="submit">
+                                        type="submit"
+                                    >
                                         <i className="fa-solid fa-magnifying-glass"></i>
                                     </button>
                                     <button onClick={handleResetClick} className="cross">
@@ -62,18 +66,18 @@ function Home() {
                                 </form>
                             </div>
                         </div>
-                        {/* Section "Ajout récent" */}
-                       
-                        <div className="add-recent"> 
+
+                        {/* Section "Ajouts récents" */}
+                        <div className="add-recent">
                             <h2>Ajouts récents</h2>
-                            <CardsBooks books={recentBooks} /> {/* Affiche les 2 livres récents */}
+                            <CardsBooks books={recentBooks} />
                         </div>
 
                         {/* Section "Tous les livres" */}
                         <div className="Books-all">
-                        <div className="title-section">
-                            <h2>Bibliothèque</h2>
-                        </div>
+                            <div className="title-section">
+                                <h2>Bibliothèque</h2>
+                            </div>
                             {isSearching ? (
                                 filteredBooks.length > 0 ? (
                                     <CardsBooks books={filteredBooks} />
@@ -81,7 +85,7 @@ function Home() {
                                     <p>Aucun livre trouvé</p>
                                 )
                             ) : (
-                                <CardsBooks books={Data} />
+                                <CardsBooks books={sortedBooks} />
                             )}
                         </div>
                     </div>
