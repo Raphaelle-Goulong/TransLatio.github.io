@@ -1,21 +1,7 @@
-.Home-section {
-    // width: 100vw;                                                                                                                                                                                                                                                                       
+.Home-section {                                                                                                                                                                                                                                                                    
     height: auto;
     min-height: 100vh;
     padding-bottom: 50px;
-    background-image: repeating-linear-gradient(
-            135deg,
-            rgb(24, 24, 24) 0px,
-            rgb(24, 24, 24) 12px,
-            transparent 13px
-        ),
-        repeating-linear-gradient(
-            217deg,
-            rgb(24, 24, 24) 0px,
-            rgb(24, 24, 24) 12px,
-            transparent 13px
-        ),
-        linear-gradient(90deg, hsla(205, 0%, 61%, 1), hsla(190, 0%, 61%, 1));
     .Books-section {
         display: flex;
         flex-direction: column;
