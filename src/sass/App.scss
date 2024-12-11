@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	
+	background-color: black;
+	height: 100%; 
 }
 ol, ul {
 	list-style: none;
@@ -47,3 +48,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+

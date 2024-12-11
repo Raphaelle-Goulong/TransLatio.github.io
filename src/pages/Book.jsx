@@ -3,6 +3,12 @@ import { useParams } from 'react-router-dom';
 import mammoth from 'mammoth';
 import '../sass/Book.scss';
 import data from '../Data.json';
+import Button from '../components/Button';
+
+
+
+
+
 
 function Book() {
     const { id } = useParams(); // Récupère l'ID du livre depuis l'URL
@@ -148,6 +154,7 @@ function Book() {
                                 >
                                     Chapitre suivant
                                 </button>
+                                 <Button/>
                             </div>
                         </div>
                     ) : error ? (
@@ -160,6 +167,7 @@ function Book() {
                 <p>Livre non trouvé. Vérifiez l'ID ou retournez à la bibliothèque.</p>
             )}
         </div>
+        
     );
 }
 
