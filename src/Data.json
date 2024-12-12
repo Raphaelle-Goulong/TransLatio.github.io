@@ -283,7 +283,7 @@
         "id": "36",
         "title": "RHYTHM Vol 1",
         "cover": "/Images/Rhythm 1.webp",
-        "url": "/Books/RHYTHM Vol 1(Eng).docx",
+        "url": "/Books/RHYTHM Vol 1.docx",
         "auteur": "Chao Planoy",
         "date": "2024-12-01"
     },
@@ -307,7 +307,7 @@
         "id": "39",
         "title": "Sister",
         "cover": "/Images/Sister.webp",
-        "url": "/Bookjson/SISTER.docx",
+        "url": "/Books/SISTER.docx",
         "auteur": "Chao Planoy",
         "date": "2024-12-01"
     },
@@ -315,7 +315,7 @@
         "id": "40",
         "title": "The secret of us",
         "cover": "/Images/The secret of us.webp",
-        "url": "/Books/The Secret of Us(Special C_Compl).docx",
+        "url": "/Books/the secret of us.docx",
         "auteur": " Mee Nam",
         "date": "2024-12-01"
     },
@@ -371,7 +371,7 @@
         "id": "47",
         "title": "One night stand",
         "cover": "/Images/One night stand.webp",
-        "url": "/Books/US_complete.docx",
+        "url": "/Books/One night stand.docx",
         "auteur": "Nom de l'Auteur",
         "date": "2024-12-08"
     },
@@ -379,7 +379,7 @@
         "id": "48",
         "title": "N° 5",
         "cover": "/Images/No 5.webp",
-        "url": "/Books/US_complete.docx",
+        "url": "/Books/N° 5.docx",
         "auteur": "Chao Planoy",
         "date": "2024-12-08"
     },
