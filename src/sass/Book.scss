@@ -35,10 +35,17 @@
     }
     .help-speed {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+        @media (min-width: 768px) {
+           display: flex;
         justify-content: space-around;
-        gap: 10px;
+        
+        }
         .translate-button {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
     }
     .loading-spinner {
@@ -55,12 +62,15 @@
         color: #f8f5f5;
         line-height: 2;
         white-space: pre-wrap; 
+        padding: 20px;
+        
     }
     .chapter-navigation {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 15px;
+        
     }
 
     button {
@@ -81,6 +91,10 @@
         &:disabled {
             background: linear-gradient(135deg, #7a7a7a, #272727);
             cursor: not-allowed;
+        }
+        @media (max-width: 320px) {
+            width: 140px;
+         
         }
     }
 }

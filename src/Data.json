@@ -398,5 +398,21 @@
         "url": "/Books/Bad sugar.docx",
         "auteur": "Nom de l'Auteur",
         "date": "2024-12-11"
+    },
+    {
+        "id": "51",
+        "title": "Buy My Boss",
+        "cover": "/Images/Buy My Boss.webp",
+        "url": "/Books/Buy My Boss.docx",
+        "auteur": "FoxyFox",
+        "date": "2024-12-13"
+    },
+    {
+        "id": "52",
+        "title": "Hello Neighbor",
+        "cover": "/Images/Hello Neighbor.webp",
+        "url": "/Books/Hello Neighbor.docx",
+        "auteur": "Velvet",
+        "date": "2024-12-13"
     }
 ]
