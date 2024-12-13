@@ -12,13 +12,17 @@ function Book() {
     const [currentChapterIndex, setCurrentChapterIndex] = useState(0)
     const [error, setError] = useState(null)
     const [isTranslated, setIsTranslated] = useState(false)
-    const [isLoadingTranslation, setIsLoadingTranslation] = useState(false) // Nouvel état
+    const [isLoadingTranslation, setIsLoadingTranslation] = useState(false) 
 
     useEffect(() => {
         if (book) {
-            fetchBookContent(book.url)
+            const savedProgress = localStorage.getItem(`progress-${id}`);
+            if (savedProgress) {
+                setCurrentChapterIndex(parseInt(savedProgress, 10));
+            }
+            fetchBookContent(book.url);
         }
-    }, [book])
+    }, [book, id])
 
     const fetchBookContent = (url) => {
         fetch(url)
@@ -44,19 +48,7 @@ function Book() {
 
         paragraphs.forEach((paragraph) => {
             const trimmed = paragraph.trim()
-            // if (/^(Chapter|Chapitre)?\s*\d+/i.test(trimmed)) {
-            //     if (currentChapter.title || currentChapter.content) {
-            //         chapters.push({ ...currentChapter });
-            //     }
-            //     currentChapter = {
-            //         title: trimmed,
-            //         content: '',
-            //     };
-            // } else if (trimmed) {
-            //     currentChapter.content += trimmed + '\n';
-            // }
-
-            // Modifier la condition pour détecter les chapitres par autre critère
+          
             if (
                 trimmed.toLowerCase().startsWith('chapter') ||
                 trimmed.toLowerCase().startsWith('chapitre')
@@ -128,6 +120,7 @@ function Book() {
 
     const handleSelectChapter = (index) => {
         setCurrentChapterIndex(index)
+        localStorage.setItem(`progress-${id}`, index); // Sauvegarde de la progression
     }
 
     return (
@@ -142,6 +135,7 @@ function Book() {
                                 <Dropdowns
                                     chapters={chapters}
                                     onSelectChapter={handleSelectChapter}
+                                    currentChapterIndex={currentChapterIndex}
                                 />
                                 <button
                                     className="translate-button"

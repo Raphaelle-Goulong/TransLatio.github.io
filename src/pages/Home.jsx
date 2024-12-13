@@ -67,11 +67,13 @@ function Home() {
                             </div>
                         </div>
 
-                        {/* Section "Ajouts récents" */}
-                        <div className="add-recent">
-                            <h2>Ajouts récents</h2>
-                            <CardsBooks books={recentBooks} />
-                        </div>
+                        {/* Afficher les ajouts récents seulement si la recherche n'est pas activée */}
+                        {!isSearching && (
+                            <div className="add-recent">
+                                <h2>Ajouts récents</h2>
+                                <CardsBooks books={recentBooks} />
+                            </div>
+                        )}
 
                         {/* Section "Tous les livres" */}
                         <div className="Books-all">

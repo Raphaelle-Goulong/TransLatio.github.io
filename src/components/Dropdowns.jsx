@@ -1,10 +1,11 @@
 import React from 'react';
 import '../sass/Dropdowns.scss';
 
-function Dropdowns({ chapters, onSelectChapter }) {
+function Dropdowns({ chapters, onSelectChapter, currentChapterIndex }) {
     return (
         <div className="dropdown">
             <select
+                value={currentChapterIndex} // Définit le chapitre sélectionné
                 onChange={(e) => onSelectChapter(Number(e.target.value))}
                 className="dropdown-select"
             >

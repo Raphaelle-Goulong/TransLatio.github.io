@@ -1,7 +1,7 @@
-import '../sass/CardsBooks.scss'
-import { Link } from 'react-router-dom'
+import '../sass/CardsBooks.scss';
+import { Link } from 'react-router-dom';
 
-function CardsBooks({ books }) {  // Accepter "books" comme prop
+function CardsBooks({ books }) {  
     return (
         <section className="CardsBooks-section">
             <div className="CardsBooks-container">
@@ -11,15 +11,16 @@ function CardsBooks({ books }) {  // Accepter "books" comme prop
                             <img src={book.cover} alt={book.title} />
                         </article>
                         <div className="settings">
-                            <p>0%</p>
+                            <p>{book.title}</p>  
                             <i className="fa-solid fa-ellipsis"></i>
                         </div>
                     </Link>
                 ))}
             </div>
         </section>
-    )
+    );
 }
 
-export default CardsBooks
+export default CardsBooks;
+
 
