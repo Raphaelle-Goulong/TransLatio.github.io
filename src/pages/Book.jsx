@@ -5,6 +5,8 @@ import '../sass/Book.scss'
 import Dropdowns from '../components/Dropdowns'
 import data from '../Data.json'
 
+
+
 function Book() {
     const { id } = useParams()
     const book = data.find((item) => item.id === id)
