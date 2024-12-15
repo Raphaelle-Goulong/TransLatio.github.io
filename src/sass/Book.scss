@@ -12,12 +12,15 @@
     }
 
     .Book-title {
+        padding-top: 100px;
         text-align: center;
         font-size: 2.5rem;
         font-weight: bold;
         color: #ffffff;
         @media (min-width: 768px) {
             margin: 70px 0;
+        padding-top: 0px;
+
         }
     }
 
@@ -52,11 +55,57 @@
         text-align: center;
         margin: 20px 0;
         color: #1b7463;
+    
         p {
-            font-size: 16px;
+            font-size: 1.5rem;
             font-weight: bold;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(90deg, #1b7463, #95d4c8, #1b7463);
+            background-size: 200% 100%;
+            background-clip: text; // Propriété standard
+            -webkit-background-clip: text; // Propriété spécifique à Webkit
+            -webkit-text-fill-color: transparent;
+            animation: shine 2s linear infinite;
+
+        .dot {
+            display: inline-block;
+            animation: bounce 1.5s infinite;
+        }
+
+        .dot:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
         }
     }
+    
+    @keyframes shine {
+        0% {
+            background-position: 200% 0;
+        }
+        100% {
+            background-position: -200% 0;
+        }
+    }
+    
+    @keyframes shine {
+        0% {
+            background-position: 200% 0;
+        }
+        100% {
+            background-position: -200% 0;
+        }
+    }
+    
     .chapter-content {
         margin-bottom: 50px;
         color: #f8f5f5;
