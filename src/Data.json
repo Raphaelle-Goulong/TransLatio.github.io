@@ -414,5 +414,15 @@
         "url": "/Books/Hello Neighbor.docx",
         "auteur": "Velvet",
         "date": "2024-12-13"
+    },
+    {
+        "id": "53",
+        "title": "Stuck with me",
+        "cover": "/Images/Stuck with me.webp",
+        "url": "/Books/STUCK WITH ME.docx",
+        "auteur": "FoxyFox",
+        "date": "2024-12-17",
+        "note": ""
     }
+
 ]
