@@ -26,6 +26,17 @@ function Book() {
         }
     }, [book, id])
 
+    useEffect(() => {
+        // Remonte immédiatement en haut de la page lorsque le chapitre change
+        window.scrollTo(0, 0);
+    }, [currentChapterIndex]);
+
+
+
+
+
+
+
     const fetchBookContent = (url) => {
         fetch(url)
             .then((response) => {
