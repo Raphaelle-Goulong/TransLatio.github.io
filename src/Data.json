@@ -5,7 +5,8 @@
         "cover": "/Images/23.5 Degree.webp",
         "url": "/Books/23.5 Degree.docx",
         "auteur": "Nom de l'Auteur",
-        "date": "2024-12-01"
+        "date": "2024-12-01",
+        "type": "word"
     },
     {
         "id": "2",
@@ -13,7 +14,8 @@
         "cover": "/Images/Affair.webp",
         "url": "/Books/AFFAIR.docx",
         "auteur": "Chao Planoy",
-        "date": "2024-12-01"
+        "date": "2024-12-01",
+        "type": "word"
     },
     {
         "id": "3",
@@ -431,6 +433,15 @@
         "url": "/Books/Somewhere Somehow.docx",
         "auteur": "MONMAW",
         "date": "2024-12-29"
+       
+    },
+    {
+        "id": "55",
+        "title": "Chloe",
+        "cover": "/Images/CHLOE.webp",
+        "url": "/Books/CHLOE.docx",
+        "auteur": "Chao Planoy",
+        "date": "2025-01-02"
        
     }
 ]

@@ -42,6 +42,12 @@ function Header() {
                                     <h3>Menu</h3>
                                 </Link>
                             </li>
+                            <li className="MyBooks">
+                                <Link to="/MyBooks" onClick={closeMenu}>
+                                <i className="fa-solid fa-book"></i>
+                                    <h3>Mes Livres</h3>
+                                </Link>
+                            </li>
                             <li className="Setting">
                                 <Link to="/settings" onClick={closeMenu}>
                                     <i className="fa-solid fa-gear"></i>
