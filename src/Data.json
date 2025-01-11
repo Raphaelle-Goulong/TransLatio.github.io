@@ -374,7 +374,7 @@
         "title": "One night stand",
         "cover": "/Images/One night stand.webp",
         "url": "/Books/One night stand.docx",
-        "auteur": "Nom de l'Auteur",
+        "auteur": "ไรท์ฟิน",
         "date": "2024-12-08"
     },
     {
@@ -452,5 +452,78 @@
         "auteur": "Zezeho",
         "date": "2025-01-08"
        
+    },
+    {
+        "id": "57",
+        "title": "Secret Affair",
+        "cover": "/Images/Secret Affair.webp",
+        "url": "/Books/Secret Affair.docx",
+        "auteur": "มีนาม",
+        "date": "2025-01-10"
+       
+    },
+    {
+        "id": "58",
+        "title": "Predict",
+        "cover": "/Images/Predict.webp",
+        "url": "/Books/Predict.docx",
+        "auteur": "Hiiroda",
+        "date": "2025-01-10"
+       
+    },
+    {
+        "id": "59",
+        "title": "If I stop being stubborn, will you still love me",
+        "cover": "/Images/If I stop being stubborn, will you still love m.webp",
+        "url": "/Books/If I stop being stubborn, will you still love me.docx",
+        "auteur": "โซดาซ่าส์น้อย",
+        "date": "2025-01-10"
+       
+    },
+    {
+        "id": "60",
+        "title": "Promises in the illusion ",
+        "cover": "/Images/Promise in the illusion.webp",
+        "url": "/Books/Promise in the illusion.docx",
+        "auteur": "NATPAT",
+        "date": "2025-01-10"
+       
+    },
+    {
+        "id": "61",
+        "title": "Just Friend : How Long Can We Stay Friend ? ",
+        "cover": "/Images/Just Friend.webp",
+        "url": "/Books/Just Friend.docx",
+        "auteur": "Ferrary_ff",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "62",
+        "title": "Evil Enemy Defeats Love ",
+        "cover": "/Images/Evil Enemy Defeats Love.webp",
+        "url": "/Books/Evil Enemy Defeats Love.docx",
+        "auteur": "White Fox",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "63",
+        "title": "The Whale Store ",
+        "cover": "/Images/The Whale Store.webp",
+        "url": "/Books/The Whale Store.docx",
+        "auteur": "Snow Leopard",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "64",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
     }
+
 ]
