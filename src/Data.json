@@ -520,10 +520,81 @@
         "id": "64",
         "title": "About Galaxy",
         "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY.docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "65",
+        "title": "Bitter Sweet Toxic",
+        "cover": "/Images/Bitter Sweet Toxic.webp",
+        "url": "/Books/Bitter Sweet Toxic.docx",
+        "auteur": "Hojicha Studio",
+        "date": "2025-01-24",
+        "descrisption": "What happens when the woman who was your 'first love' becomes the new flame of your best friend? 'Kulaphat' is thrust back into the world of 'Lalin', her first love, now entwined with her close friend 'Irene'. As old wounds resurface and tangled emotions ignite, Kulaphat is driven by a burning desire for revenge, ready to go to any lengths to make her first love pay for the heartbreak of the past."
+    },
+    {
+        "id": "66",
+        "title": "FWB with My Boss",
+        "cover": "/Images/FWB with My Boss.webp",
+        "url": "/Books/FWB with My Boss.docx",
+        "auteur": "Hojicha Studio",
+        "date": "2025-01-24"
+       
+    },
+    {
+        "id": "67",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "68",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "69",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "70",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "71",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
+        "url": "/Books/ABOUT GALAXY .docx",
+        "auteur": "Zezeho",
+        "date": "2025-01-11"
+       
+    },
+    {
+        "id": "72",
+        "title": "About Galaxy",
+        "cover": "/Images/About Galaxy.webp",
         "url": "/Books/ABOUT GALAXY .docx",
         "auteur": "Zezeho",
         "date": "2025-01-11"
        
     }
-
 ]
