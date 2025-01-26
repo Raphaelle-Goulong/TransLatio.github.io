@@ -7,7 +7,7 @@ function Footer() {
         <>
         
             <div className="Footer-section">
-            <h2 className="title-footer">© Copyright 2024 . Tous droits réservés.</h2>
+            <h2 className="title-footer">© Copyright 2025 . Tous droits réservés.</h2>
             </div>
         </>
         )

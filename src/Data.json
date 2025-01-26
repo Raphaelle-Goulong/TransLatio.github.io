@@ -572,29 +572,38 @@
     },
     {
         "id": "70",
-        "title": "About Galaxy",
-        "cover": "/Images/About Galaxy.webp",
-        "url": "/Books/ABOUT GALAXY .docx",
+        "title": "LUCKY ONE",
+        "cover": "/Images/LUCKY ONE.webp",
+        "url": "/Books/LUCKY ONE.docx",
         "auteur": "Zezeho",
-        "date": "2025-01-11"
+        "date": "2025-01-26"
        
     },
     {
         "id": "71",
-        "title": "About Galaxy",
-        "cover": "/Images/About Galaxy.webp",
-        "url": "/Books/ABOUT GALAXY .docx",
-        "auteur": "Zezeho",
-        "date": "2025-01-11"
+        "title": "Operation 13",
+        "cover": "/Images/Operation 13.webp",
+        "url": "/Books/Operation 13.docx",
+        "auteur": "Nalan",
+        "date": "2025-01-26"
        
     },
     {
         "id": "72",
-        "title": "About Galaxy",
-        "cover": "/Images/About Galaxy.webp",
-        "url": "/Books/ABOUT GALAXY .docx",
-        "auteur": "Zezeho",
-        "date": "2025-01-11"
+        "title": "Love or Lust",
+        "cover": "/Images/Love or Lust.webp",
+        "url": "/Books/Love or Lust.docx",
+        "auteur": "Sarsaparilla",
+        "date": "2025-01-26"
+       
+    },
+    {
+        "id": "73",
+        "title": "Bloody Mary ",
+        "cover": "/Images/Bloody Mary.webp",
+        "url": "/Books/Bloody Mary.docx",
+        "auteur": "author",
+        "date": "2025-01-26"
        
     }
 ]
