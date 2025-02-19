@@ -211,19 +211,19 @@
     },
     {
         "id": "27",
-        "title": "Our Love 1",
-        "cover": "/Images/Our love 1.webp",
-        "url": "/Books/Our Love 1(Tsou Univ).docx",
-        "auteur": "Nom de l'Auteur",
-        "date": "2024-12-01"
+        "title": "911 Love Code",
+        "cover": "/Images/911.webp",
+        "url": "/Books/911 Love Code.docx",
+        "auteur": "Chao Planoy",
+        "date": "2025-02-19"
     },
     {
         "id": "28",
-        "title": "Our Love 2",
-        "cover": "/Images/Our love 2.webp",
-        "url": "/Books/Our Love 2(Tsou U).docx",
-        "auteur": "Nom de l'Auteur",
-        "date": "2024-12-01"
+        "title": "Professor With Benefits",
+        "cover": "/Images/Professor With Benefits.webp",
+        "url": "/Books/Professor With Benefits.docx",
+        "auteur": "wanwira",
+        "date": "2025-02-19"
     },
     {
         "id": "29",

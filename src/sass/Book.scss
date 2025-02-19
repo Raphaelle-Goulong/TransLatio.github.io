@@ -73,7 +73,7 @@
     .loading-spinner {
         text-align: center;
         margin: 20px 0;
-        color: #1b7463;
+        color: #f55d33;
 
         p {
             font-size: 1.5rem;
@@ -81,7 +81,8 @@
             display: inline-block;
             position: relative;
             overflow: hidden;
-            background: linear-gradient(90deg, #1b7463, #95d4c8, #1b7463);
+            background: linear-gradient(100deg, #fa6c71, #f7e19a, #fc7f5c);
+
             background-size: 200% 100%;
             background-clip: text; // Propriété standard
             -webkit-background-clip: text; // Propriété spécifique à Webkit
