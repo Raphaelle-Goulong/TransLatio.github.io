@@ -1,24 +1,26 @@
-import '../sass/MyBooks.scss'
+import '../sass/Biblio.scss'
 import CardsBooks from '../components/CardsBooks'
-import DataMyBooks from '../DataMyBooks.json'
+import Data from '../Data.json'
 import { useState } from 'react'
 
-function MyBooks() {
+
+function Biblio() {
+
     const [searchTerm, setSearchTerm] = useState('')
     const [isSearching, setIsSearching] = useState(false)
 
     // Trier les livres par date pour la section des ajouts récents
-    const recentBooks = [...DataMyBooks]
+    const recentBooks = [...Data]
         .sort((a, b) => new Date(b.date) - new Date(a.date))
         .slice(0, 3)
 
     // Filtrer les livres pour la recherche
-    const filteredBooks = DataMyBooks.filter((book) =>
+    const filteredBooks = Data.filter((book) =>
         book.title.toLowerCase().includes(searchTerm.toLowerCase())
     )
 
     // Trier les livres par ordre alphabétique pour la bibliothèque
-    const sortedBooks = [...DataMyBooks].sort((a, b) =>
+    const sortedBooks = [...Data].sort((a, b) =>
         a.title.localeCompare(b.title)
     )
 
@@ -35,7 +37,7 @@ function MyBooks() {
 
     return (
         <>
-            <div className="Mybooks-section">
+            <div className="Biblio-section">
                 <section className="Books-section">
                     <div className="Books-container">
                         {/* Section de recherche */}
@@ -67,6 +69,13 @@ function MyBooks() {
                             </div>
                         </div>
 
+                        {/* Afficher les ajouts récents seulement si la recherche n'est pas activée */}
+                        {!isSearching && (
+                            <div className="add-recent">
+                                <h2>Ajouts récents</h2>
+                                <CardsBooks books={recentBooks} />
+                            </div>
+                        )}
 
                         {/* Section "Tous les livres" */}
                         <div className="Books-all">
@@ -90,4 +99,4 @@ function MyBooks() {
     )
 }
 
-export default MyBooks
+export default Biblio

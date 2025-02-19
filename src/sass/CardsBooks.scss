@@ -34,12 +34,19 @@
         .settings {
             color: white;
             margin-top: 10px;
+          
             p {
                 width: 100px;
                 white-space: nowrap; 
                 overflow: hidden; 
-                text-overflow: ellipsis; 
+                text-overflow: ellipsis;  
+                margin-bottom: 5px;
             }
+           i{
+            
+            padding-right: 30px;
+            
+           }
         }
     }
 }

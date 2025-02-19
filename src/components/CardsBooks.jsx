@@ -12,7 +12,8 @@ function CardsBooks({ books }) {
                         </article>
                         <div className="settings">
                             <p>{book.title}</p>  
-                            <i className="fa-solid fa-ellipsis"></i>
+                            {/* <i className="fa-regular fa-thumbs-up"></i>
+                            <i className="fa-regular fa-thumbs-down"></i> */}
                         </div>
                     </Link>
                 ))}

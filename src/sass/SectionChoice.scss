@@ -1,0 +1,36 @@
+.SectionChoice-section {
+    display: flex;
+    justify-content: center;
+    .Buttons-section { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+        .Title-section {
+            color: white;
+            z-index: 20;
+            position: absolute;
+            font-family: 'Anek Latin', serif;
+            font-size: 1.3rem;
+            text-shadow: 1px 1px 2px rgb(54, 54, 54);
+            @media (min-width: 768px) {
+                font-size: 1.5rem;
+            }
+        }
+        .img {
+            display: flex;
+            width: 230px;
+            height: 160px;
+            border-radius: 15px;
+            z-index: 10;
+            box-shadow: rgba(110, 110, 110, 0.3) 0px 19px 38px, rgba(32, 32, 32, 0.22) 0px 15px 12px;
+            cursor: pointer;
+
+               @media (min-width: 768px) {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}

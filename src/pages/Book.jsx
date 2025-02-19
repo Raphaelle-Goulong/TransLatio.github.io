@@ -106,11 +106,7 @@ function Book() {
                 }
 
                 const paragraph = paragraphs[index]
-                // fetch(
-                //     `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=fr&dt=t&q=${encodeURIComponent(
-                //         paragraph
-                //     )}`
-                // )
+              
                 fetch(
                     `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=fr&dt=t&q=${encodeURIComponent(
                         paragraph

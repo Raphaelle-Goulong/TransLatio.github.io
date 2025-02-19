@@ -1,4 +1,4 @@
-.Mybooks-section {                                                                                                                                                                                                                                                                    
+.Biblio-section {                                                                                                                                                                                                                                                                    
     height: auto;
     min-height: 100vh;
     padding-bottom: 50px;
@@ -43,7 +43,7 @@
                     border: none;
                     margin-bottom: 20px;
                     outline: none;
-                    border-bottom: 2px solid #43e97b;
+                    border-bottom: 2px solid #ff7e5f;
                     color: #ffffff;
                     &::placeholder {
                         color: #ffffff;
@@ -55,8 +55,8 @@
                     }
                     &:focus {
                         font-family: 'Unbounded', sans-serif;
-                        background: rgba(8, 8, 8, 0.452);
-                        border-bottom: 2px solid #38f9d7;
+                        background: rgba(56, 55, 55, 0.452);
+                        border-bottom: 2px solid #ee0979;
                         color: #f7f7f7;
                     }
                 }
@@ -73,7 +73,7 @@
                     right: 70px;
                     font-size: 20px;
                     &:focus {
-                        color: #43e97b;
+                        color: #ee0979;
                     }
                 }
                 .cross {

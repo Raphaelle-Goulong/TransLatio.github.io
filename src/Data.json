@@ -585,7 +585,8 @@
         "cover": "/Images/Operation 13.webp",
         "url": "/Books/Operation 13.docx",
         "auteur": "Nalan",
-        "date": "2025-01-26"
+        "date": "2025-01-26",
+        "note": "null"
        
     },
     {
@@ -596,14 +597,7 @@
         "auteur": "Sarsaparilla",
         "date": "2025-01-26"
        
-    },
-    {
-        "id": "73",
-        "title": "Bloody Mary ",
-        "cover": "/Images/Bloody Mary.webp",
-        "url": "/Books/Bloody Mary.docx",
-        "auteur": "author",
-        "date": "2025-01-26"
-       
     }
+    
+   
 ]
