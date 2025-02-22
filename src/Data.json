@@ -597,7 +597,16 @@
         "auteur": "Sarsaparilla",
         "date": "2025-01-26"
        
+    },
+    {
+        "id": "73",
+        "title": "Little bit little more",
+        "cover": "/Images/Little bit little more.webp",
+        "url": "/Books/Little bit little more.docx",
+        "auteur": "Chao Planoy",
+        "date": "2025-02-22"
+        
+       
     }
-    
    
 ]
