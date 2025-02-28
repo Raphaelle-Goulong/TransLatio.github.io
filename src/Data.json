@@ -607,6 +607,36 @@
         "date": "2025-02-22"
         
        
+    },
+    {
+        "id": "74",
+        "title": "The Secret of Us (Special Chapters) ",
+        "cover": "/Images/The Secret of Us (Special Chapters).webp",
+        "url": "/Books/The Secret of Us (Special Chapters).docx",
+        "auteur": "Mee Nam",
+        "date": "2025-02-28"
+        
+       
+    },
+    {
+        "id": "75",
+        "title": "Harmony Secret",
+        "cover": "/Images/Harmony Secret.webp",
+        "url": "/Books/Harmony Secret.docx",
+        "auteur": "Serenista",
+        "date": "2025-02-28"
+        
+       
+    },
+    {
+        "id": "76",
+        "title": "Harmony Secret(Special)",
+        "cover": "/Images/Harmony Secret(Special).webp",
+        "url": "/Books/Harmony Secret(Special).docx",
+        "auteur": "Serenista",
+        "date": "2025-02-28"
+        
+       
     }
-   
+    
 ]
