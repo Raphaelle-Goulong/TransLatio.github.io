@@ -647,7 +647,36 @@
         "date": "2025-03-03"
         
         
+    },
+    {
+        "id": "78",
+        "title": "Mirror",
+        "cover": "/Images/Mirror.webp",
+        "url": "/Books/Mirror.docx",
+        "auteur": "Chao planoy",
+        "date": "2025-03-12"
+        
+        
+    },
+    {
+        "id": "79",
+        "title": "Like A Palette",
+        "cover": "/Images/Like A Palette.webp",
+        "url": "/Books/Like A Palette.docx",
+        "auteur": "Zezeho",
+        "date": "2025-03-12"
+        
+        
+    },
+    {
+        "id": "80",
+        "title": "Papa Mafia",
+        "cover": "/Images/Papa Mafia.webp",
+        "url": "/Books/Papa Mafia.docx",
+        "auteur": "ไรท์ฟิน",
+        "date": "2025-03-12"
+        
+        
     }
-    
     
 ]
