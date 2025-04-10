@@ -670,11 +670,21 @@
     },
     {
         "id": "80",
-        "title": "Papa Mafia",
-        "cover": "/Images/Papa Mafia.webp",
-        "url": "/Books/Papa Mafia.docx",
-        "auteur": "ไรท์ฟิน",
-        "date": "2025-03-12"
+        "title": "MIDNIGHT FLIGHT",
+        "cover": "/Images/Midnight Fligh.webp",
+        "url": "/Books/MIDNIGHT FLIGHT.docx",
+        "auteur": "Chao Planoy",
+        "date": "2025-04-10"
+        
+        
+    },
+    {
+        "id": "81",
+        "title": "My Only Sunshine",
+        "cover": "/Images/My Only Sunshine.webp",
+        "url": "/Books/My Only Sunshine.docx",
+        "auteur": "Flower of memory",
+        "date": "2025-04-10"
         
         
     }
