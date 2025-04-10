@@ -687,6 +687,16 @@
         "date": "2025-04-10"
         
         
+    },
+    {
+        "id": "82",
+        "title": "My Sweet Love",
+        "cover": "/Images/My Sweet Love.webp",
+        "url": "/Books/My Sweet Love.docx",
+        "auteur": "Anonymous",
+        "date": "2024-04-10"
+        
+        
     }
     
 ]
