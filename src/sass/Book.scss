@@ -41,6 +41,13 @@
         h3 {
             margin: 20px 0;
         }
+        
+            margin-bottom: 50px;
+            color: #f8f5f5;
+            line-height: 2;
+            white-space: pre-wrap;
+            padding: 20px;
+        
     }
     .chapter-title {
         font-size: 1.5rem;
@@ -125,13 +132,7 @@
             background-position: -200% 0;
         }
     }
-    .chapter-content {
-        margin-bottom: 50px;
-        color: #f8f5f5;
-        line-height: 2;
-        white-space: pre-wrap;
-        padding: 20px;
-    }
+    
     .chapter-navigation {
         display: flex;
         justify-content: center;

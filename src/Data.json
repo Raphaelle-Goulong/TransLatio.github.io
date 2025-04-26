@@ -697,6 +697,88 @@
         "date": "2024-04-10"
         
         
+    },
+    {
+        "id": "83",
+        "title": "ClaireBell",
+        "cover": "/Images/ClaireBell.webp",
+        "url": "/Books/ClaireBell.docx",
+        "auteur": "KA9ESAMA",
+        "date": "2025-04-26"
+        
+        
+    },
+    {
+        "id": "84",
+        "title": "STOP YOUR HEART (FOR ME)",
+        "cover": "/Images/STOP YOUR HEART (FOR ME).webp",
+        "url": "/Books/STOP YOUR HEART (FOR ME).docx",
+        "auteur": "Flower of memory",
+        "date": "2025-04-26"
+        
+        
+    },
+    {
+        "id": "85",
+        "title": "UNCERTAINTY",
+        "cover": "/Images/UNCERTAINTY.webp",
+        "url": "/Books/UNCERTAINTY.docx",
+        "auteur": "Flower of memory",
+        "date": "2025-04-26"
+        
+        
+    },
+    {
+        "id": "86",
+        "title": "WARM EYES",
+        "cover": "/Images/WARM EYES.webp",
+        "url": "/Books/WARM EYES.docx",
+        "auteur": "Pillow_Mark",
+        "date": "2025-04-26"
+        
+        
+    },
+    {
+        "id": "87",
+        "title": "STOP BEING EVIL (TO YOUR LOVER)",
+        "cover": "/Images/STOP BEING EVIL (TO YOUR LOVER).webp",
+        "url": "/Books/STOP BEING EVIL.docx",
+        "auteur": "Flower of memory",
+        "date": "2025-04-26"
+        
+        
+    },
+    {
+        "id": "88",
+        "title": "CHASING LOVE",
+        "cover": "/Images/CHASING LOVE.webp",
+        "url": "/Books/CHASING LOVE.docx",
+        "auteur": "PEONY",
+        "date": "2025-04-26"
+        
+       
+    },
+    {
+        "id": "89",
+        "title": "Rin Will Never Love (Denied Love)",
+        "cover": "/Images/Rin Will Never Love (Denied Love).webp",
+        "url": "/Books/Rin Will Never Love (Denied Love).docx",
+        "auteur": "PEONY",
+        "date": "2025-04-27"
+        
+        
+    },
+    {
+        "id": "90",
+        "title": " Rin Will Never Love (Denied Love) special",
+        "cover": "/Images/Rin Will Never Love (Denied Love) special.webp",
+        "url": "/Books/Rin Will Never Love (Denied Love) special.docx",
+        "auteur": "PEONY",
+        "date": "2025-04-27"
+        
+       
     }
+    
+    
     
 ]
