@@ -770,15 +770,44 @@
     },
     {
         "id": "90",
-        "title": " Rin Will Never Love (Denied Love) special",
+        "title": "Rin Will Never Love (Denied Love) special",
         "cover": "/Images/Rin Will Never Love (Denied Love) special.webp",
         "url": "/Books/Rin Will Never Love (Denied Love) special.docx",
         "auteur": "PEONY",
         "date": "2025-04-27"
         
        
+    },
+    {
+        "id": "91",
+        "title": "Player",
+        "cover": "/Images/Player.webp",
+        "url": "/Books/Player.docx",
+        "auteur": "SIIX",
+        "date": "2025-05-18"
+        
+       
+    },
+    {
+        "id": "92",
+        "title": "7 Years",
+        "cover": "/Images/7 Years.webp",
+        "url": "/Books/7 Years.docx",
+        "auteur": "Chao Planoy",
+        "date": "2025-05-18"
+        
+       
+    },
+    {
+        "id": "93",
+        "title": "Dangerous Queen",
+        "cover": "/Images/Dangerous Queen.webp",
+        "url": "/Books/Dangerous Queen.docx",
+        "auteur": "คุณผู้หญิง",
+        "date": "2025-05-18"
+        
+       
     }
-    
     
     
 ]
