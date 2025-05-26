@@ -807,7 +807,25 @@
         "date": "2025-05-18"
         
        
+    },
+    {
+        "id": "94",
+        "title": "Ferris Wheel",
+        "cover": "/Images/Ferris Wheel.webp",
+        "url": "/Books/Ferris Wheel.docx",
+        "auteur": "reallyb",
+        "date": "2025-05-26"
+        
+       
+    },
+    {
+        "id": "95",
+        "title": "The Girl to Khun Yai",
+        "cover": "/Images/The Girl to Khun Yai.webp",
+        "url": "/Books/The Girl to Khun Yai.docx",
+        "auteur": "reallyb",
+        "date": "2025-05-26"
+        
+       
     }
-    
-    
 ]
