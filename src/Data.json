@@ -826,6 +826,24 @@
         "auteur": "reallyb",
         "date": "2025-05-26"
         
+    },
+    {
+        "id": "96",
+        "title": "Be my Universe",
+        "cover": "/Images/Be my Universe.webp",
+        "url": "/Books/Be my Universe.docx",
+        "auteur": "คุณผู้หญิง",
+        "date": "2025-05-30"
+        
        
+    },
+    {
+        "id": "97",
+        "title": "Hello! How Are You",
+        "cover": "/Images/Hello! How Are You.webp",
+        "url": "/Books/Hello! How Are You.docx",
+        "auteur": "SIIX",
+        "date": "2025-06-13"
+        
     }
 ]
