@@ -845,5 +845,14 @@
         "auteur": "SIIX",
         "date": "2025-06-13"
         
+    },
+    {
+        "id": "98",
+        "title": "Chained",
+        "cover": "/Images/Chained.webp",
+        "url": "/Books/Chained.docx",
+        "auteur": "SIIX",
+        "date": "2025-06-14"
+        
     }
 ]
