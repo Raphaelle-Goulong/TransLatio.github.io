@@ -854,5 +854,14 @@
         "auteur": "SIIX",
         "date": "2025-06-14"
         
+    },
+    {
+        "id": "99",
+        "title": "NOPE! Je ne t'aime pas",
+        "cover": "/Images/NOPE! Je ne taime pas.webp",
+        "url": "/Books/NOPE! Je ne taime pas.docx",
+        "auteur": "khunphuying",
+        "date": "2025-06-19"
+        
     }
 ]
