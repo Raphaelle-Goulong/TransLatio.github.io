@@ -863,5 +863,14 @@
         "auteur": "khunphuying",
         "date": "2025-06-19"
         
+    },
+    {
+        "id": "100",
+        "title": "Chain Baby (Special)",
+        "cover": "/Images/Chain Baby (Special).webp",
+        "url": "/Books/Chain Baby (Special).docx",
+        "auteur": "REVERSE",
+        "date": "2025-06-25"
+        
     }
 ]
