@@ -871,6 +871,16 @@
         "url": "/Books/Chain Baby (Special).docx",
         "auteur": "REVERSE",
         "date": "2025-06-25"
-        
+       
+    },
+    {
+        "id": "101",
+        "title": "Juste la lune à travers le voile du temps",
+        "cover": "/Images/Juste la lune à travers le voile du temps.webp",
+        "url": "/Books/Juste la lune à travers le voile du temps.docx",
+        "auteur": "ธาฬธาวาฬ",
+        "date": "2025-06-27"
+       
     }
 ]
+
