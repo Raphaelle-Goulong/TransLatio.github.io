@@ -878,8 +878,26 @@
         "title": "Juste la lune à travers le voile du temps",
         "cover": "/Images/Juste la lune à travers le voile du temps.webp",
         "url": "/Books/Juste la lune à travers le voile du temps.docx",
-        "auteur": "ธาฬธาวาฬ",
+        "auteur": "SIIX",
         "date": "2025-06-27"
+       
+    },
+    {
+        "id": "102",
+        "title": "Cupide",
+        "cover": "/Images/Cupide.webp",
+        "url": "/Books/Cupide.docx",
+        "auteur": "SIIX",
+        "date": "2025-07-03"
+       
+    },
+    {
+        "id": "103",
+        "title": "Poisonous Love (Special Chapters)",
+        "cover": "/Images/Poisonous Love (Special Chapters).webp",
+        "url": "/Books/Poisonous Love (Special Chapters).docx",
+        "auteur": "Mee Nam",
+        "date": "2025-07-03"
        
     }
 ]
